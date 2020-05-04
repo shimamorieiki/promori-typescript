@@ -7,7 +7,7 @@ import Sample from './Sample'
 import * as serviceWorker from './serviceWorker';
 import Testfun from './Test'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/js/bootstrap.bundle.js';
 // var data: string;
 // data = "hello";
 

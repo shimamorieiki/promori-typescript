@@ -1,15 +1,11 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 
 const Sample = () => {
     const [count, setCount] = useState(0);
 
-    const handleClick = useCallback(() => {
-        setCount(count + 1);
-    }, [count]);
-
     return (
         <div>
-            <button onClick={handleClick}>click here!</button>
+            <button onClick={() => setCount(count + 1)}>click here!</button>
             <p>count: {count}</p>
         </div>
     );
