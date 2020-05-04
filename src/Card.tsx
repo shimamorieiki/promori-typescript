@@ -1,7 +1,7 @@
 import React from "react";
 import { FC } from "react";
 
-type Props = {
+type Memo = {
     title: string
     text: string
     date: string
@@ -9,12 +9,11 @@ type Props = {
     limit: string
 }
 
-const Card: FC<Props> = ({ title, text, date, person, limit }) => (
+const Card: FC<Memo> = ({ title, text, date, person, limit }) => (
     <div className="card">
         <div className="card-header">
             <div className="row">
                 <div className="col"><h4>{title}</h4></div>
-
                 <div className="col"><button className="btn-danger">×</button></div>
             </div>
         </div>

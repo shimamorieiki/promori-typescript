@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import App from './App'
 // import Test from './Test'
 // import Sidebar from './Sidebar'
-import Sample from './Sample'
+// import Sample from './Sample'
 import * as serviceWorker from './serviceWorker';
-import Testfun from './Test'
+// import Testfun from './Test'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 // var data: string;
@@ -21,8 +21,8 @@ ReactDOM.render(
     {/* <Sidebar /> */}
     {/* <App data="hello" /> */}
     <App />
-    <Sample />
-    <Testfun />
+    {/* <Sample /> */}
+    {/* <Testfun /> */}
     {/* <p>{data}</p> */}
   </React.StrictMode>,
   document.getElementById('root')
